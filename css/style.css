@@ -105,7 +105,7 @@ header .in-header-home .uk-navbar-nav li a:hover {
 }
 
 header .in-header-home .uk-navbar-nav>li.uk-active>a {
-    color: white;
+    color: #F7921F !important;
 }
 
 header .in-header-home .uk-navbar-dropdown li a {
@@ -230,7 +230,7 @@ header .uk-card-secondary a:hover {
 }
 
 .uk-sticky.uk-active {
-    background: #313131;
+    background: white;
     box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.13);
 }
 
@@ -241,15 +241,17 @@ header .uk-card-secondary a:hover {
 }
 
 .uk-sticky.uk-active .uk-navbar-nav li a {
-    color: rgba(255, 255, 255, 0.75);
+    color: black;
+    font-size: large;
+    font-weight:600
 }
 
 .uk-sticky.uk-active .uk-navbar-nav li a:hover {
-    color: white;
+    color: #F7921F !important;
 }
 
 .uk-sticky.uk-active .uk-navbar-nav>li.uk-active>a {
-    color: white;
+    color: black;
 }
 
 .uk-sticky.uk-active .uk-navbar-dropdown li a {
@@ -277,9 +279,10 @@ header .uk-card-secondary a:hover {
 }
 
 .uk-sticky.uk-active .in-optional-nav .uk-button-primary {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: black;
     box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.3);
 }
+
 
 .uk-sticky.uk-active .in-mobile-nav .uk-button {
     font-size: 17px;
