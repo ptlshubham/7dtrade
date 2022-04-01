@@ -1044,7 +1044,8 @@ button.uk-icon:not(:disabled) {
 
 .uk-input:disabled, .uk-select:disabled, .uk-textarea:disabled {
     background-color: #f8f8f8;
-    color: #999;
+    color: #000;
+    font-weight: bolder;
     border-color: #e5e5e5
 }
 
@@ -1725,7 +1726,9 @@ select.uk-form-width-xsmall {
 
 @media (min-width:1200px) {
     .uk-grid {
-        margin-left: -40px
+        margin-left: -40px;
+        text-align: center;
+        margin-top: 5%;
     }
 
     .uk-grid>* {
@@ -2079,7 +2082,8 @@ select.uk-form-width-xsmall {
 
 .uk-card-body {
     display: flow-root;
-    padding: 30px 30px
+    padding: 30px 30px;
+    height: 100%;
 }
 
 .uk-card-header {
@@ -2847,7 +2851,9 @@ ul.uk-nav-sub li a i {
 }
 
 .uk-navbar-nav>li>a {
-    color: #999
+    color: #fff;
+    font-weight: 500;
+    font-size:larger
 }
 
 .uk-navbar-nav>li:hover>a, .uk-navbar-nav>li>a.uk-open, .uk-navbar-nav>li>a:focus {
@@ -6738,7 +6744,9 @@ iframe.uk-cover {
 }
 
 .uk-padding-large {
-    padding: 30px
+    padding: 40px;
+    /* justify-content: center;
+    margin-left: 96px; */
 }
 
 @media (min-width:1200px) {
