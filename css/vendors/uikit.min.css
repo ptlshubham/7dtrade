@@ -1514,7 +1514,7 @@ select.uk-form-width-xsmall {
 }
 
 .uk-section-xsmall {
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 20px
 }
 
@@ -1728,7 +1728,7 @@ select.uk-form-width-xsmall {
     .uk-grid {
         margin-left: -40px;
         text-align: center;
-        margin-top: 5%;
+        margin-top: 1%;
     }
 
     .uk-grid>* {
