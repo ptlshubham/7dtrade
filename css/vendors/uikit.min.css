@@ -1461,7 +1461,8 @@ select.uk-form-width-xsmall {
     padding: 0;
     line-height: 1.5;
     background: 0 0;
-    color: #999
+    /* color: #999; */
+    color: #F7921F;
 }
 
 .uk-button-text:focus, .uk-button-text:hover {
@@ -6443,7 +6444,7 @@ iframe.uk-cover {
 }
 
 .uk-margin-small-right {
-    margin-right: 290px !important
+    margin-right: 20px !important
 }
 
 .uk-margin-medium {
