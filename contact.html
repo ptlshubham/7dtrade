@@ -51,7 +51,7 @@
                         <div class="uk-navbar-item">
                             <!-- module logo begin -->
                             <a class="img/logo22.png" href="index.html">
-                                <img class="uk-margin-small-right in-offset-top-10" data-src="img/logo2.png" alt="wave"
+                                <img id="myImage" class="uk-margin-small-right in-offset-top-10" data-src="img/logo2.png" alt="wave"
                                     width="180" height="40" data-uk-img>
 
                             </a>
@@ -418,9 +418,25 @@
             scroll-margin-top: 300px;
         }
     </style>
+     <script>
+        window.onscroll = function () {
+            scrollFunction();
+        };
+  
+        function scrollFunction() {
+            var image = document.getElementById("myImage");
+            if (document.documentElement.scrollTop > 150)
+                image.src = 
+"./img/logo22.png";
+            else
+                image.src = 
+"./img/logo2.png";
+        }
+    </script>
     <!-- Javascript -->
     <script src="js/vendors/uikit.min.js"></script>
     <script src="js/vendors/indonez.min.js"></script>
+    
 </body>
 
 </html>
