@@ -2017,7 +2017,7 @@ select.uk-form-width-xsmall {
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 70px;
-        padding-bottom: 70px
+        /* padding-bottom: 70px */
     }
 }
 
