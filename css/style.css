@@ -131,7 +131,7 @@ header .in-header-home .in-optional-nav .uk-button-primary {
 
 header .in-header-inner {
     /* border-bottom: 1px solid #e8e8e8; */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); */
     margin-bottom: 18px;
 }
 
@@ -233,6 +233,7 @@ header .uk-card-secondary a:hover {
 .uk-sticky.uk-active {
     background: #fff;
     box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.13);
+
 }
 .menu-bar1{
     background: linear-gradient(to bottom, #F7921F -10%, #fff);
@@ -1690,6 +1691,7 @@ a.in-generic-email:hover {
 /* offset top margin */
 .in-offset-top-10 {
     margin-top: -10px;
+    
 }
 
 .in-offset-top-20 {
