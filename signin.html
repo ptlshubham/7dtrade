@@ -133,6 +133,9 @@
                 .uk-navbar-nav>li>a {
                     color: black;
                 }
+                .uk-navbar-nav>li>a:hover {
+                    color: #DF7943 !important;
+                }
             </style>
             <!-- <style>
                 html{
@@ -211,7 +214,7 @@
                                         <div>
                                             <!-- <label>Verify：</label> -->
                                             <div id="captcha">
-                                                <!-- <div class="geetest_captcha geetest_float geetest_customTheme geetest_nextReady"><div class="geetest_holder"><svg class="geetest_btn_svg"><path class="geetest_path_top geetest_svg_default geetest_svg_animate" d="M0,25 L0.0,4.0 Q0,0,4.0,0.0 L256.0,0.0 Q260,0,260.0,4.0 L260,25" stroke-dasharray="310, 310" stroke-dashoffset="310" stroke-width="0"></path><path class="geetest_path_bottom geetest_svg_default geetest_svg_animate" d="M0,25 L0.0,46.0 Q0,50,4.0,50.0 L256.0,50.0 Q260,50,260.0,46.0 L260,25" stroke-dasharray="310, 310" stroke-dashoffset="310" stroke-width="0"></path></svg><div class="geetest_btn_click" aria-label="Click to verify" tabindex="0"></div><div class="geetest_mask"><div class="geetest_mask_layer"></div></div><div class="geetest_content"><div class="geetest_gradient_bar"></div><div class="geetest_tip_container"><div class="geetest_tips_wrap"><div class="geetest_err_tips"></div><div class="geetest_tip">Click to verify</div></div><a class="geetest_logo" href="https://www.geetest.com/first_page" target="_blank" tabindex="-1" aria-label="Geetest"></a></div><div class="geetest_err_code"></div></div><div class="geetest_box_wrap"><div class="geetest_box"><div class="geetest_header"><div class="geetest_title"><div class="geetest_text_tips">Slide to complete the puzzle</div><div class="geetest_ques_tips"></div></div><div class="geetest_status_bar"></div></div><div class="geetest_container"><div class="geetest_wrap" tabindex="-1"><div class="geetest_subitem geetest_slide"><div class="geetest_window"><div class="geetest_slice" style="width: 313px; height: 80.4757px; top: 118.702px;"><div class="geetest_slice_bg" style="background-image: url(&quot;http://static.geetest.com/pictures/v4_pic/slide_2021_07_14/quiet4/slide/89baddb135e444d08a7b9216cdf733e2.png&quot;);"></div><div class="geetest_slice_animate"></div></div><div class="geetest_bg" style="background-image: url(&quot;http://static.geetest.com/pictures/v4_pic/slide_2021_07_14/quiet4/bg/89baddb135e444d08a7b9216cdf733e2.png&quot;);"></div><div class="geetest_result_tips"></div></div><div class="geetest_slider"><div class="geetest_track"><div class="geetest_process"></div><div class="geetest_track_tips"></div><div class="geetest_btn"><div class="geetest_arrow geetest_arrow_1"></div></div></div></div></div></div></div><div class="geetest_footer"><div class="geetest_footer_left"><a class="geetest_close" role="button" aria-label="Close" tabindex="0"><div class="geetest_close_tips geetest_small_tip">Close</div></a><a class="geetest_refresh" role="button" aria-label="Refresh" tabindex="0"><div class="geetest_refresh_tips geetest_small_tip">Refresh</div></a><a class="geetest_feedback" href="https://www.geetest.com/Helper" target="_blank" role="button" aria-label="More info" tabindex="0"><div class="geetest_feedback_tips geetest_small_tip">More info</div></a><a class="geetest_voice geetest_hide" role="button" aria-label="Visual impairment" tabindex="0"><div class="geetest_voice_icon_tips geetest_small_tip">Visual impairment</div></a><a class="geetest_back geetest_hide" role="button" aria-label="Back" tabindex="0"><div class="geetest_back_tips geetest_small_tip">Back</div></a></div><div class="geetest_footer_right"><div class="geetest_progress"></div><a class="geetest_box_logo" href="https://www.geetest.com/first_page" target="_blank" tabindex="-1" aria-label="Geetest"></a></div></div><div class="geetest_ai_detect"></div><div class="geetest_ai_grid"></div></div><div class="geetest_box_layer"><div class="geetest_box_btn"></div></div></div></div><div class="geetest_popup_ghost"></div></div></div> -->
+                                            
                                             </div>
                                         </div>
                                         <div class="uk-margin-small uk-width-1-1">
@@ -282,7 +285,7 @@
         });
     </script>
 
-    <script src='https://static.geetest.com/v4/gt4.js'></script>
+    <!-- <script src='https://static.geetest.com/v4/gt4.js'></script> -->
 
     <!-- Javascript -->
     <script src="js/vendors/uikit.min.js"></script>
@@ -294,7 +297,7 @@
     <!-- <div>
         <label>Verify：</label>
         <div id="captcha">
-        <div class="geetest_captcha geetest_float geetest_customTheme geetest_nextReady" ><div class="geetest_holder" ><svg class="geetest_btn_svg"><path class="geetest_path_top geetest_svg_default geetest_svg_animate" d="M0,25 L0.0,4.0 Q0,0,4.0,0.0 L256.0,0.0 Q260,0,260.0,4.0 L260,25" stroke-dasharray="310, 310" stroke-dashoffset="310" stroke-width="0"></path><path class="geetest_path_bottom geetest_svg_default geetest_svg_animate" d="M0,25 L0.0,46.0 Q0,50,4.0,50.0 L256.0,50.0 Q260,50,260.0,46.0 L260,25" stroke-dasharray="310, 310" stroke-dashoffset="310" stroke-width="0"></path></svg><div class="geetest_btn_click" aria-label="Click to verify" tabindex="0"></div><div class="geetest_mask"><div class="geetest_mask_layer"></div></div><div class="geetest_content"><div class="geetest_gradient_bar"></div><div class="geetest_tip_container"><div class="geetest_tips_wrap"><div class="geetest_err_tips"></div><div class="geetest_tip">Click to verify</div></div><a class="geetest_logo" href="https://www.geetest.com/first_page" target="_blank" tabindex="-1" aria-label="Geetest"></a></div><div class="geetest_err_code"></div></div><div class="geetest_box_wrap"><div class="geetest_box"><div class="geetest_header"><div class="geetest_title"><div class="geetest_text_tips">Slide to complete the puzzle</div><div class="geetest_ques_tips"></div></div><div class="geetest_status_bar"></div></div><div class="geetest_container"><div class="geetest_wrap" tabindex="-1"><div class="geetest_subitem geetest_slide"><div class="geetest_window"><div class="geetest_slice" style="width: 80.4757px; height: 80.4757px; top: 118.702px;"><div class="geetest_slice_bg" style="background-image: url(&quot;http://static.geetest.com/pictures/v4_pic/slide_2021_07_14/quiet4/slide/89baddb135e444d08a7b9216cdf733e2.png&quot;);"></div><div class="geetest_slice_animate"></div></div><div class="geetest_bg" style="background-image: url(&quot;http://static.geetest.com/pictures/v4_pic/slide_2021_07_14/quiet4/bg/89baddb135e444d08a7b9216cdf733e2.png&quot;);"></div><div class="geetest_result_tips"></div></div><div class="geetest_slider"><div class="geetest_track"><div class="geetest_process"></div><div class="geetest_track_tips"></div><div class="geetest_btn"><div class="geetest_arrow geetest_arrow_1"></div></div></div></div></div></div></div><div class="geetest_footer"><div class="geetest_footer_left"><a class="geetest_close" role="button" aria-label="Close" tabindex="0"><div class="geetest_close_tips geetest_small_tip">Close</div></a><a class="geetest_refresh" role="button" aria-label="Refresh" tabindex="0"><div class="geetest_refresh_tips geetest_small_tip">Refresh</div></a><a class="geetest_feedback" href="https://www.geetest.com/Helper" target="_blank" role="button" aria-label="More info" tabindex="0"><div class="geetest_feedback_tips geetest_small_tip">More info</div></a><a class="geetest_voice geetest_hide" role="button" aria-label="Visual impairment" tabindex="0"><div class="geetest_voice_icon_tips geetest_small_tip">Visual impairment</div></a><a class="geetest_back geetest_hide" role="button" aria-label="Back" tabindex="0"><div class="geetest_back_tips geetest_small_tip">Back</div></a></div><div class="geetest_footer_right"><div class="geetest_progress"></div><a class="geetest_box_logo" href="https://www.geetest.com/first_page" target="_blank" tabindex="-1" aria-label="Geetest"></a></div></div><div class="geetest_ai_detect"></div><div class="geetest_ai_grid"></div></div><div class="geetest_box_layer"><div class="geetest_box_btn"></div></div></div></div><div class="geetest_popup_ghost"></div></div></div>
+   
       </div> -->
 
 
@@ -9958,11 +9961,11 @@ color: #777620;
         }
     </style>
 
-    <script charset="UTF-8" async="" crossorigin="anonymous"
+    <!-- <script charset="UTF-8" async="" crossorigin="anonymous"
         src="http://static.geetest.com/v4/gct/gct4.67bb6912816299219a13b225e43c5a49.js"></script>
 
     <script charset="UTF-8" async="" crossorigin="anonymous"
-        src="http://static.geetest.com/v4/static/v1.5.2/js/gcaptcha4.js"></script>
+        src="http://static.geetest.com/v4/static/v1.5.2/js/gcaptcha4.js"></script> -->
 
     <style>
         .geetest_captcha.geetest_customTheme .geetest_status_bar,
